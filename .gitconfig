@@ -1,0 +1,19 @@
+[user]
+	name = Anton Yakunov
+	email = Yakunov94@gmail.com
+
+[core]
+	editor = code --wait
+
+[color]
+    ui = true
+
+[alias]
+	diffs = diff --staged
+	co = checkout
+	cm = commit -m
+	fix = commit --fixup
+	rb = rebase
+	rbc = rebase --continue
+	rba = rebase --abort
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
