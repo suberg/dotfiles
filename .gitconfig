@@ -6,7 +6,7 @@
 	editor = code --wait
 
 [color]
-    ui = true
+  ui = true
 
 [alias]
 	diffs = diff --staged
